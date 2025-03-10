@@ -6,7 +6,7 @@ function createSketch(canvasId, bgColor) {
         
         
         lastTouchPoint = {set: false, x: 0, y: 0};
-        p.camera = { x: 2000, y: 2000, zoom: 0.3 };
+        p.camera = { x: 1230, y: 1000, zoom: 0.3 };
         p.mouseOverCanvas = false;
         let isDragging = false;
         let touchStartDist = 0;
