@@ -18,7 +18,7 @@ function submit()
 
     console.log(str);
 
-    fetch("https://script.google.com/macros/s/AKfycbz00nBU8k8wFw75Jo38JrsEjq4uphfpNrViNgamaBJz51olI18UVccxFecUAIpQ8k0_/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyjrfSOcd1YuhKyKqE05-Wxd4oF5YMSLkg_L86gp3UYHDFp35LaYx0eRg0jhTi2Cy4F6A/exec", {
         redirect: "follow",
         method: "POST",
         headers: { "Content-Type": "text/plain" },
