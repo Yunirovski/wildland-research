@@ -1,0 +1,73 @@
+.slider {
+    -webkit-appearance: none;
+    width: 90%;
+    margin-left: 4vh ;
+    margin-right: 4vh ;
+    height: 12px ;
+    border-radius: 6px;
+    background: linear-gradient(to right, #00b466, #00e636, #007c46);
+    outline: none;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.slider-goodbad {
+
+    background: linear-gradient(to right, #b40000, #e6c200, #007c46);
+    
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 100px;
+    background: url('images/hand.png') no-repeat center / cover;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    transition: transform 0.2s ease-in-out;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.slider-label {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 10px;
+    display: block;
+}
+
+.efteling-button {
+    font-family: 'Garamond', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(180deg, #8B0000, #B22222); /* Deep red gradient */
+    border: 3px solid gold;
+    border-radius: 12px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.efteling-button:hover {
+    background: linear-gradient(180deg, #B22222, #D2691E); /* Lighter glow */
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(255, 215, 0, 0.6);
+}
+
+.efteling-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(255, 215, 0, 0.6);
+}

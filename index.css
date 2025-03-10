@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Efteling';
+    src: url('images/Efteling-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+
+input[type="text"] {
+    width: calc(100% - 4vh); /* Make it as wide as possible minus the margin */
+    padding: 2vh 1vh;
+    margin: 2vh; /* Add margin around the input */
+    box-sizing: border-box;
+    background-color: #f2cb65;
+    border: none;
+}
+
+body {
+    font-family: 'Efteling', sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    overflow-x: hidden;
+}
+
+
+.question {
+    font-size: clamp(16px, 5vw, 6vh);
+    padding-bottom: 2vh;
+    padding-top: 10vh
+}
+
+.lang-title {
+    font-size: clamp(40px, 7vw, 8vh);
+    line-height: 0.1;  /* Keep enough space between lines */
+    text-align: center;
+    width: 100%;
+    overflow-wrap: break-word; 
+    height: 10%;
+    justify-content: center;
+    transform: translateY(200%);
+}
+
+#lang-english {
+    background-image: url('https://flagcdn.com/w320/gb.png');
+}
+
+#lang-dutch {
+    background-image: url('https://flagcdn.com/w320/nl.png');
+}
+
+
+.lang-buttons {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    gap: 20px;  /* Space between buttons */
+    margin-top: 30vh;  /* Add space above */
+}
+
+.lang-btn {
+    width: clamp(20px, 20vw, 20vh); /* Adjust size as needed */
+    height: clamp(20px, 13vw, 15vh);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s ease-in-out; 
+}
+.lang-btn.selected {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+.language {
+    position: relative; /* Needed for absolute positioning of the pseudo-element */
+    margin: 0;
+    padding: 0;
+    padding-bottom: clamp(20px, 10vw, 10vh);
+
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Background stuff */
+.language::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background: url('images/dm_background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(2px);
+    
+    z-index: -1;
+}
+
+.map {
+    text-align: center;
+}
+
+.disclaimer-body {
+    margin-top: clamp(40px, 7vw, 8vh);
+    margin-left: clamp(16px, 4vw, 6vh);
+    margin-right: clamp(16px, 4vw, 6vh);
+    padding-bottom: clamp(40px, 7vw, 8vh);;
+    font-size: clamp(20px, 4vw, 5vh);
+}
+
+.disclaimer-title {
+    font-size: clamp(40px, 7vw, 8vh);;
+    padding-top: clamp(16px, 10vw, 40vh);
+}
+
+.disclaimer::before {
+    position: relative;
+    height: auto;
+    content: "";
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    
+    background: url('images/Skyline2022.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(2px);
+    
+    z-index: -1;
+ 
+}
+
+.questions {
+    position: relative; /* Ensure the pseudo-element is positioned relative to this container */
+}
+
+.questions::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  /* Ensure full width */
+    height: 100%; /* Ensure full height */
+    
+    background-color: #44687d; /* Corrected hex color */
+    
+    filter: blur(2px);
+    z-index: -1; 
+}
+
+.section {
+    font-size: clamp(40px, 7vw, 8vh);;
+    padding-top: clamp(40px, 7vw, 8vh);;
+}
+
+@font-face {
+    font-family: 'Efteling';
+    src: url('images/Efteling-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.dropdown {
+    font-family: 'Efteling', sans-serif;
+    font-size: clamp(16px, 2.5vw, 24px);
+    padding: 12px;
+    width: 100%;
+    max-width: 320px;
+    border: 3px solid #d4af37; /* Golden border */
+    border-radius: 12px;
+    background: linear-gradient(to bottom, #f8e4c1, #c69c6d); /* Fantasy parchment */
+    color: #4a2c14; /* Deep brown text */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Glowing effect on hover */
+.dropdown:hover {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.8);
+    border-color: #ffcc00;
+}
+
+/* Dropdown arrow customization */
+.dropdown:after {
+    content: "▼";
+    font-size: 18px;
+    color: #d4af37;
+}
+
+
+.submit-button {
+    font-family: 'Garamond', serif;
+    font-size: clamp(40px, 5vw, 5vh);
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(180deg, #8B0000, #B22222); /* Deep red gradient */
+    border: 3px solid gold;
+    border-radius: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+
+    padding-left: clamp(40px, 3vw, 5vh);
+    padding-right: clamp(40px, 3vw, 5vh);
+    
+    margin-bottom: clamp(40px, 10vw, 10vh);
+}
+
+.submit-button:hover {
+    background: linear-gradient(180deg, #B22222, #D2691E); /* Lighter glow */
+    transform: scale(1.08);
+    box-shadow: 0 8px 16px rgba(255, 215, 0, 0.6);
+}
+
+.submit-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 3px 6px rgba(255, 215, 0, 0.6);
+}
+
+/* Magical glow effect */
+.submit-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.4) 10%, transparent 70%);
+    transition: opacity 0.4s, transform 0.4s;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+}
+
+.submit-button:hover::after {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.2);
+}
