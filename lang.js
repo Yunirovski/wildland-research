@@ -1,18 +1,18 @@
 const translations = [
     {
         "id": "text-question-map-best",
-        "en": "Click on your favorite place in the Efteling",
-        "nl": "Druk op je favoriete plek in de Efteling"
+        "en": "Click on your favorite place in the Wildlands",
+        "nl": "Druk op je favoriete plek in de Wildlands"
     },
     {
         "id": "text-question-map-worst",
-        "en": "Click on your least favorite place in the Efteling",
-        "nl": "Druk op je minst favoriete plek in de Efteling"
+        "en": "Click on your least favorite place in the Wildlands",
+        "nl": "Druk op je minst favoriete plek in de Wildlands"
     },
     {
         "id": "text-disclaimer-body",
-        "en": "This is a school research project and is not affiliated with, endorsed by, or associated with Efteling in any way. Any collected data is stored securely and remains completely anonymous.",
-        "nl": "Dit is een schoolonderzoek en staat op geen enkele manier in verband met, wordt niet ondersteund door en is niet geassocieerd met de Efteling. Alle verzamelde gegevens worden veilig opgeslagen en blijven volledig anoniem."
+        "en": "This is a school research project about Emmen Wildlands and is not affiliated with, endorsed by, or associated with Wildlands in any way. The research focuses on observing the target audience for zoo-themed games. Any collected data is stored securely and remains completely anonymous.",
+        "nl": "Dit is een schoolonderzoek over Emmen Wildlands en staat op geen enkele manier in verband met, wordt niet ondersteund door en is niet geassocieerd met Wildlands. Het onderzoek richt zich op de observatie van de doelgroepen voor dierentuin-gerelateerde spellen. Alle verzamelde gegevens worden veilig opgeslagen en blijven volledig anoniem."
     },
     {
         "id": "text-disclaimer-title",
@@ -31,8 +31,8 @@ const translations = [
     },
     {
         "id": "text-question-you-frequency",
-        "en": "How often have you been at Efteling?",
-        "nl": "Hoe vaak ga je naar de Efteling?"
+        "en": "How often have you been at Wildlands?",
+        "nl": "Hoe vaak ga je naar de Wildlands?"
     },
     {
         "id": "visit-frequency",
@@ -70,8 +70,8 @@ const translations = [
     },
     {
         "id": "text-why",
-        "en": "Why did you choose this?",
-        "nl": "Waarom koos je hier voor?"
+        "en": "What is your occupation?",
+        "nl": "Wat is jouw beroep?"
     },
     {
         "id": "text-why2",
@@ -85,8 +85,8 @@ const translations = [
     },
     {
         "id": "text-header-efteling",
-        "en": "Some questions about Efteling:",
-        "nl": "Wat vragen over de Efteling:"
+        "en": "Some questions about Wildlands:",
+        "nl": "Wat vragen over de Wildlands:"
     },
     {
         "id": "text-story-element",
