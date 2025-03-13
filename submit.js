@@ -26,7 +26,7 @@ function submit()
 
     console.log(str);
 
-    fetch("https://script.google.com/macros/s/AKfycbyjrfSOcd1YuhKyKqE05-Wxd4oF5YMSLkg_L86gp3UYHDFp35LaYx0eRg0jhTi2Cy4F6A/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzuwoAT4fWnL7z66xcrmBgjI-4tbT_F31n3_63akkFrIa2KYY1bIhn3wY7-QDp2CtmqTg/exec", {
         redirect: "follow",
         method: "POST",
         headers: { "Content-Type": "text/plain" },
