@@ -13,13 +13,14 @@ function submit()
         adict: getField("text-does-game"),
         game_type: getField("game-type"),
         good_important: getField("good-important"),
-        parent_engagement: getField("question1"),
-        education_importance: getField("question2"),
-        activity_preference: getField("question3"),
-        child_interest_factors: getField("question4"),
-        zoo_app_usage: getField("question5"),
-        mobile_game_acceptance: getField("question6"),
-        ar_vr_experience: getField("question7")
+        parent_engagement: getField("parents-1"),
+        education_importance: getField("parents-2"),
+        activity_preference: getField("parents-3"),
+        child_interest_factors: getField("parents-4"),
+        zoo_app_usage: getField("parents-5"),
+        mobile_game_acceptance: getField("parents-6"),
+        ar_vr_experience: getField("parents-7")
+        
     });
 
 
