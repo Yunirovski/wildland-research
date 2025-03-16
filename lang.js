@@ -95,8 +95,8 @@ const translations = [
     },
     {
         "id": "text-header-game",
-        "en": "Some questions about videogames",
-        "nl": "Wat vragen over computerspelletjes"
+        "en": "Some questions about gameplay",
+        "nl": "Wat vragen over gameplay"
     },
     {
         "id": "text-does-game",
@@ -119,8 +119,8 @@ const translations = [
     },
     {
         "id": "text-question-game-freq",
-        "en": "How often do you play videogames?",
-        "nl": "Hoe vaak speel jij computerspelletjes?"
+        "en": "Which gameplay elements do you find important?",
+        "nl": "Welke gameplay-elementen vind je belangrijk?"
     },
     {
         "id": "text-question-game-type",
@@ -290,7 +290,70 @@ const translations = [
             "Nee, ik denk niet dat het nodig is",
             "Nee, ik geef de voorkeur aan traditionele ervaringen"
         ]
+    },
+    {
+        "id": "text-zoo-facility",
+        "en": [
+            "Animal exhibits",
+            "Food and drink areas",
+            "Playground for kids",
+            "Educational zones",
+            "Rest areas"
+        ],
+        "nl": [
+            "Dierenverblijven",
+            "Eet- en drinkgelegenheden",
+            "Speeltuin voor kinderen",
+            "Educatieve zones",
+            "Rustplekken"
+        ]
+    },
+    {
+        "id": "text-enjoy-game",
+        "en": [
+            "Photography",
+            "Taking care of animals",
+            "Playing hide and seek"
+        ],
+        "nl": [
+            "Fotografie",
+            "Dieren verzorgen",
+            "Verstoppertje spelen"
+        ]
+    },    
+    {
+        "id": "text-game-platform",
+        "en": [
+            "Not not applicable",
+            "PC",
+            "Console (PlayStation/Xbox/Nintendo)",
+            "Mobile phone",
+            "Tablet"
+        ],
+        "nl": [
+            "N.V.T",
+            "PC",
+            "Console (PlayStation/Xbox/Nintendo)",
+            "Mobiele telefoon",
+            "Tablet"
+        ]
+    },
+    {
+        "id": "question1",
+        "en": "What do you think is the most important facility in the zoo?",
+        "nl": "Wat denk je dat de belangrijkste faciliteit in de dierentuin is?"
+    },
+    {
+        "id": "question2",
+        "en": "What part of the zoo game do you enjoy the most?",
+        "nl": "Wat vind je het leukste deel van het dierenparkspel?"
+    },
+    {
+        "id": "question3",
+        "en": "Which platform do you most often play games on?",
+        "nl": "Op welk platform speel je het vaakst spellen?"
     }
+    
     
     
 

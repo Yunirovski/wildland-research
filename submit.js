@@ -19,14 +19,17 @@ function submit()
         child_interest_factors: getField("parents-question-4"),
         zoo_app_usage: getField("parents-question-5"),
         mobile_game_acceptance: getField("parents-question-6"),
-        ar_vr_experience: getField("parents-question-7")
+        ar_vr_experience: getField("parents-question-7"),
+        question1: getField("question1"),
+        question2: getField("question2"),
+        question3: getField("question3")
         
     });
 
 
     console.log(str);
 
-    fetch("https://script.google.com/macros/s/AKfycbzuwoAT4fWnL7z66xcrmBgjI-4tbT_F31n3_63akkFrIa2KYY1bIhn3wY7-QDp2CtmqTg/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbyk1QDlsY_aAvlJYG-VuoM6LiWMILcKXZLoNOdcaWUoFejxjnyDLZCgBrchdKR1Ivz-yg/exec", {
         redirect: "follow",
         method: "POST",
         headers: { "Content-Type": "text/plain" },
